@@ -1,0 +1,1 @@
+from hooks.norm_collector import NormCollector

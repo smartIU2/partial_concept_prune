@@ -1,0 +1,16 @@
+hook_module: 'transformer'
+wrapper: 'forge'
+profile: 5
+target: 'test'
+prompts_neutral: 'prompts_neutral'
+prompts_target: 'prompts_target'
+early_stop_layers: 10
+threshold_wanda_base: 24
+threshold_weight_ratio: 0.5
+threshold_timesteps: 7
+model_type: 'zImage'
+model_id: 'zImage_turbo_FP8'
+gpu: 0
+seed: 110387
+timesteps: 9
+create_sample_images: false
