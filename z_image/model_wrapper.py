@@ -210,7 +210,7 @@ class ZImageWrapper_WanGP(ZImageWrapper):
     def __init__(self,
         model="./models/ZImageTurbo_quanto_bf16_int8.safetensors",
         text_encoder="./models/Qwen3/qwen3_quanto_bf16_int8.safetensors",
-        vae="./models/vae/ZImageTurbo_VAE_bf16.safetensors",
+        vae="./models/ZImageTurbo_VAE_bf16.safetensors",
         scheduler="./models/ZImageTurbo_scheduler_config.json",
         model_type="z_image",
         deterministic=False,
